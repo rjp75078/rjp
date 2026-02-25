@@ -1,192 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RJP Best Service</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Live Cricket Match Insights & Discussion</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
 
-    <style>
-        body {
-            margin: 0;
-            background: #000;
-            font-family: 'Poppins', sans-serif;
-            color: #fff;
-            text-align: center;
-        }
+body{
+margin:0;
+font-family:Arial;
+background:#0a0f1f;
+color:white;
+}
 
-        .container {
-            max-width: 420px;
-            margin: auto;
-            padding: 20px;
-        }
+.top{
+background:#111936;
+padding:18px;
+text-align:center;
+font-size:26px;
+font-weight:bold;
+}
 
-        h1 {
-            font-size: 28px;
-            font-weight: 700;
-            margin-top: 30px;
-        }
+.wrap{
+max-width:900px;
+margin:auto;
+padding:20px;
+}
 
-        .sub {
-            font-size: 18px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
+.card{
+background:#121a3b;
+padding:22px;
+border-radius:14px;
+margin-bottom:20px;
+box-shadow:0 0 18px rgba(0,0,0,0.4);
+}
 
-        .highlight {
-            color: #ff3b3b;
-            font-weight: 600;
-        }
+.cta{
+background:#1b2550;
+text-align:center;
+padding:30px;
+border-radius:16px;
+}
 
-        .redirect {
-            color: #00e5ff;
-            font-size: 22px;
-            font-weight: 600;
-            margin: 30px 0;
-        }
+.bigbtn{
+background:#25D366;
+padding:20px 35px;
+color:white;
+font-size:22px;
+font-weight:bold;
+text-decoration:none;
+border-radius:10px;
+display:inline-block;
+margin-top:18px;
+}
 
-        .profile-wrap {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
+.bigbtn:hover{background:#1ebe5c;}
 
-        .profile {
-            width: 160px;
-            height: 160px;
-            border-radius: 50%;
-            border: 5px solid #00e5ff;
-            overflow: hidden;
-        }
+.float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+padding:18px 22px;
+border-radius:50px;
+font-size:18px;
+font-weight:bold;
+color:white;
+text-decoration:none;
+box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
 
-        .profile img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+.timer{
+font-size:28px;
+text-align:center;
+margin:18px 0;
+color:#ffd54a;
+font-weight:bold;
+}
 
-        .tagline {
-            font-size: 18px;
-            color: #8cff8c;
-            margin: 20px 0;
-        }
+.popup{
+position:fixed;
+left:20px;
+bottom:90px;
+background:#111936;
+padding:14px 18px;
+border-radius:12px;
+display:none;
+box-shadow:0 0 20px rgba(0,0,0,0.6);
+}
 
-        .join-btn {
-            display: block;
-            width: auto;
-            padding: 16px;
-            margin: 25px 0;
-            border-radius: 40px;
-            background: linear-gradient(90deg, #00e5ff, #00ffae);
-            color: #000;
-            font-weight: 700;
-            text-decoration: none;
-            font-size: 18px;
-            box-shadow: 0 0 20px rgba(0, 255, 200, 0.6);
-        }
+.disclaimer{
+text-align:center;
+opacity:0.7;
+font-size:13px;
+margin-top:40px;
+}
 
-        .join-btn:hover {
-            transform: scale(1.03);
-        }
-
-        .telegram {
-            font-size: 15px;
-            line-height: 1.5;
-            color: #ddd;
-        }
-
-        .disclaimer {
-            margin-top: 25px;
-            display: inline-block;
-            padding: 10px 25px;
-            border-radius: 25px;
-            background: #222;
-            color: #ccc;
-            text-decoration: none;
-        }
-
-        .footer {
-            margin-top: 30px;
-            padding-top: 25px;
-            border-top: 1px solid #333;
-            font-size: 13px;
-            color: #999;
-        }
-
-        .footer p {
-            margin: 8px 0;
-        }
-
-        .footer a {
-            color: #00e5ff;
-            text-decoration: none;
-        }
-
-        .footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17953093599"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-17953093599');
-</script>
-
+</style>
 </head>
 
 <body>
 
-    <div class="container">
+<div class="top">
+🏏 Live Cricket Insights & Match Analysis
+</div>
 
-        <h1>RJP Best Service <br> Chat on whatsapp</h1>
+<div class="wrap">
 
-        <div class="sub">
-            Best Service 🔥 | <span class="highlight">100% Trusted Service 💯</span>
-        </div>
+<div class="card">
+<h2>Today's Match Breakdown</h2>
+<p>✔ Team recent performance trends</p>
+<p>✔ Pitch behavior and weather conditions</p>
+<p>✔ Key player form analysis</p>
+<p>✔ Statistical match outlook</p>
+</div>
+
+<div class="card">
+
+<h2 style="text-align:center">Next Match Discussion Starts In</h2>
+
+<div id="count" class="timer"></div>
+
+</div>
+
+<div class="cta">
+<h2>Join Private Cricket Discussion</h2>
+
+<p>Get live match insights, real-time analysis, and expert discussion during today's game.</p>
+
+<a class="bigbtn"
+href="https://wa.me/919057939029?text=Hi%20I%20want%20today%20match%20discussion">
+Join WhatsApp Now
+</a>
+
+</div>
+
+<div class="disclaimer">
+This site provides cricket match analysis and statistical insights for informational purposes only.
+</div>
+
+</div>
 
 
-        <div class="profile-wrap">
-            <div class="profile">
-                <img src="bedge.png" alt="profile">
-            </div>
-        </div>
+<!-- FLOAT BUTTON -->
+<a class="float"
+href="https://wa.me/919057939029?text=Hi%20send%20today%20match%20updates">
+WhatsApp
+</a>
 
-        <div class="tagline">
-            ✅ | कोई शोर नहीं। सिर्फ पावरफुल Provide।
-        </div>
+<!-- FAKE JOIN POPUP -->
+<div id="pop" class="popup">🔥 27 users joined the discussion</div>
 
-        <a href="https://wa.me/919057939029?text=i want id" onclick="trackConversion()" class="join-btn">💎 CHAT ON WHATSAPP</a>
+<script>
 
-        <div class="telegram">
-            RJP Astrology Services provides traditional astrology-based consultations intended solely for general
-            guidance and personal insight. All services are offered professionally and ethically.
-            <br>
-            केवल हमारे VIP Whatsapp चैनल पर! 📲
-        </div>
+// COUNTDOWN TIMER (3 hours demo)
+var end = new Date().getTime() + 10800000;
 
-        <a href="disclaimer.html" class="disclaimer">Disclaimer</a>
+var x=setInterval(function(){
+var now=new Date().getTime();
+var d=end-now;
 
-        <div class="footer">
-            <p>© 2026 RJP Astrology Services</p>
-            <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-conditions.html">Terms & Conditions</a>
-                |  <a href="contact-us.html">Contact Us</a></p>
-        </div>
+var h=Math.floor((d%(1000*60*60*24))/(1000*60*60));
+var m=Math.floor((d%(1000*60*60))/(1000*60));
+var s=Math.floor((d%(1000*60))/1000);
 
-    </div>
-    <script>
-function trackConversion() {
-  gtag('event', 'conversion', {
-    'send_to': 'AW-17953093599/jeV3CLK32vobEN_v2fBC',
-    'value': 1.0,
-    'currency': 'INR'
-  });
-}
+document.getElementById("count").innerHTML=h+"h "+m+"m "+s+"s";
+
+},1000);
+
+
+// RANDOM POPUP EVERY 8 SEC
+setInterval(function(){
+var p=document.getElementById("pop");
+p.style.display="block";
+setTimeout(function(){p.style.display="none";},3000);
+},8000);
+
 </script>
-</body>
 
+</body>
 </html>
